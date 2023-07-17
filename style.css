@@ -1,0 +1,130 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+.navbar-brand {
+    font-family: 'Poppins';
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #1F2044;
+    font-family: 'Poppins';
+    font-weight: 500;
+    transition-duration: 0.8s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #1F2044;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(asset/icon/hamburger.png);
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: transparent; 
+}
+
+span.contact {
+    background-color: #1F2044;
+    color: #fff;
+    border: 2px solid #1F2044;
+    border-radius: 3.125rem;
+    padding: 5px 20px;
+    transition-duration: 0.8s;
+}
+
+span.contact:hover {
+    background-color: #1b1d3d;
+}
+
+/* home */
+.home h1 {
+    color: #1F2044;
+    font-family: Abril Fatface;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+
+.home p {
+    color: #1F2044;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.4px;
+}
+
+/* manfaat */
+.manfaat h1 {
+    color: #1F2044;
+    font-family: Abril Fatface;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.manfaat .line {
+    width: 100px;
+    height: 2px;
+    background: #1F2044;
+    margin-bottom: 20px;
+}
+
+.manfaat p {
+    color: #1F2044;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.4px;
+}
+
+.manfaat li {
+    color: #1F2044;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.4px;
+}
+
+/* tentang-kami */
+.tentang-kami h1 {
+    color: #1F2044;
+    font-family: Abril Fatface;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: right;
+}
+
+.tentang-kami .line {
+    width: 100px;
+    height: 2px;
+    background: #1F2044;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+.tentang-kami p {
+    color: #1F2044;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.4px;
+    text-align: right;
+}
