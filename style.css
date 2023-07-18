@@ -57,7 +57,6 @@ span.contact:hover {
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
     line-height: 30px; /* 187.5% */
     letter-spacing: 0.4px;
 }
@@ -84,7 +83,6 @@ span.contact:hover {
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
     line-height: 30px; /* 187.5% */
     letter-spacing: 0.4px;
 }
@@ -94,7 +92,6 @@ span.contact:hover {
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
     line-height: 30px; /* 187.5% */
     letter-spacing: 0.4px;
 }
@@ -123,8 +120,47 @@ span.contact:hover {
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
     line-height: 30px; /* 187.5% */
     letter-spacing: 0.4px;
     text-align: right;
+}
+
+/* faq */
+.faq h1 {
+    color: #1F2044;
+    font-family: Abril Fatface;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.faq .line {
+    width: 50px;
+    height: 2px;
+    background: #1F2044;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.accordion-item {
+    margin: 10px 0;
+}
+
+button.accordion-button {
+    background-color: #D7CB9D;
+}
+
+.accordion-body {
+    background-color: #E8E3D1;
+}
+
+.accordion {
+    --bs-accordion-btn-focus-box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #D7CB9D !important;
 }
