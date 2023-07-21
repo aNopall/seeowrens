@@ -1,0 +1,64 @@
+@media only screen and (max-width: 680px) {
+    .container {
+        max-width: 90% !important;
+    }
+    .home h1 {
+        font-size: 38px;
+    }
+    .home p {
+        font-size: 14px;
+    }
+    .tentang-kami {
+        margin-top: 40px;
+    }
+    .tentang-kami .row .col-md-7 h1 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .tentang-kami .row .col-md-7 p {
+        font-size: 14px;
+    }
+    .tentang-kami-list {
+        font-size: 14px;
+    }
+    h1.text-center.manfaat-title {
+        margin-bottom: -30px;
+    }
+    .manfaat h1 {
+        font-size: 36px;
+        line-height: 18px;
+    }
+    .manfaat-gambar {
+        order: 1;
+    }
+    .manfaat-1 {
+        order: 2;
+    }
+    h6.text-end {
+        text-align: left !important;
+    }
+    p.text-end {
+        text-align: left !important;
+    }
+    .manfaat-2 {
+        order: 3;
+    }
+    .manfaat-icon {
+        order: 1;
+    }
+    .manfaat-text {
+        order: 2;
+    }
+    .manfaat-icon-2 {
+        margin-left: -15px;
+    }
+    .manfaat-list {
+        margin-top: 10px !important;
+    }
+    .quotes h1 {
+        font-size: 28px;
+    }
+    .quotes h5 {
+        font-size: 14px;
+    }
+}
