@@ -55,7 +55,9 @@ span.contact:hover {
 /* home */
 
 .home {
-    background-color: #FB8500;
+    background-image: url(asset/img/home.svg);
+    background-position: center;
+    background-size: cover;
     padding: 100px 0;
 }
 
@@ -78,16 +80,25 @@ span.contact:hover {
 }
 
 .home button {
-    background-color: white;
+    background-color: #1E1E20;
+    color: white;
+    border-color: transparent;
     border-radius: 50px;
-    padding: 5px 50px;
+    padding: 10px 50px;
     font-weight: 500;
+}
+
+.home button:hover {
+    background-color: #1E1E20;
+    color: white;
+    border-color: transparent;
 }
 
 /* tentang-kami */
 
 .tentang-kami {
-    margin-top: 80px;
+    margin-top: 60px;
+    padding-top: 20px;
 }
 
 .tentang-kami .row .col-md-7 h5 {
@@ -105,7 +116,7 @@ span.contact:hover {
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
-    line-height: 65.5px; /* 136.458% */
+    line-height: 54.5px; /* 136.458% */
     margin-bottom: 15px;
 }
 
@@ -143,7 +154,7 @@ dd::marker {
 /* manfaat */
 
 h1.text-center.manfaat-title {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .manfaat h1 {
@@ -156,7 +167,7 @@ h1.text-center.manfaat-title {
     margin-bottom: 15px;
 }
 
-.manfaat .row .col-4 .row .col-11 h6 {
+.manfaat .row .col-md-4 .row .col-11 h6 {
     color: #1E1E20;
     text-align: center;
     font-family: Poppins;
@@ -166,7 +177,7 @@ h1.text-center.manfaat-title {
     line-height: normal;
 }
 
-.manfaat .row .col-4 .row .col-11 p {
+.manfaat .row .col-md-4 .row .col-11 p {
     color: #1E1E20;
     text-align: right;
     font-family: Poppins;
@@ -232,7 +243,7 @@ h1.text-center.manfaat-title {
 .footer .row .col-md-5 p {
     color: #E1E1E1;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
