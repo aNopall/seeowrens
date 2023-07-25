@@ -58,17 +58,24 @@
     .quotes h5 {
         font-size: 14px;
     }
-    .deskripsi {
+    .detail {
         margin-top: 40px;
     }
-    .deskripsi .row .col-md-7 h1 {
+    .img-detail {
+        order: 2;
+    }
+    .detail .row .col-md-7 h1 {
         font-size: 36px;
         line-height: 42px;
     }
-    .deskripsi .row .col-md-7 p {
+    .detail .row .col-md-7 p {
         font-size: 14px;
     }
-    .deskripsi-list {
+    .detail-list {
         font-size: 14px;
+    }
+    .list-detail {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
     }
 }
