@@ -151,6 +151,107 @@ dd::marker {
     color: #FB8500;;
 }
 
+/* detail */
+/* .detail {
+    margin-top: 60px;
+    padding-top: 20px;
+}
+
+.detail h1 {
+    color: #1E1E20;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65.5px;
+    margin-bottom: 15px;
+}
+
+.detail p {
+    color: #1E1E20;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.64px;
+    margin-bottom: 30px;
+}
+
+.detail .container .d-flex .card {
+    margin-bottom: 50px;
+}
+
+.detail .container .d-flex .card .card-body {
+    text-align: center;
+}
+
+.detail .container .d-flex .card .card-body h6 {
+    text-align: center;
+    color: #1E1E20;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.detail .container .d-flex .card .card-body p {
+    color: #1E1E20;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} */
+
+/* detail */
+.detail {
+    margin-top: 60px;
+    padding-top: 20px;
+}
+
+.detail .row .col-md-7 h5 {
+    color: #FB8500;
+    font-family: Satisfy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.detail .row .col-md-7 h1 {
+    color: #1E1E20;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54.5px;
+    margin-bottom: 15px;
+}
+
+.detail .row .col-md-7 p {
+    color: #1E1E20;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.64px;
+}
+
+.detail-list {
+    color: #1E1E20;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.64px;
+    margin-left: 15px;
+}
+
 /* manfaat */
 
 h1.text-center.manfaat-title {
